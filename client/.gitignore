@@ -1,0 +1,5 @@
+*.pyc
+cachegrab.egg-info
+.cache
+build
+dist

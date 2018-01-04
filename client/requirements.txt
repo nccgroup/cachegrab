@@ -1,0 +1,5 @@
+numpy
+pypng
+wxPython
+PyPubSub
+matplotlib
