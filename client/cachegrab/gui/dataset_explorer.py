@@ -53,7 +53,7 @@ class DatasetExplorer(wx.Panel):
         self.btn_del = wx.Button(self, wx.ID_ANY, "Delete")
         self.btn_act = wx.Button(self, wx.ID_ANY, "Activate")
 
-        grid = wx.GridSizer(3, 2)
+        grid = wx.GridSizer(3, 2, wx.Size(0,0))
         grid.AddMany([
             (self.btn_add, 0, wx.EXPAND),
             (self.btn_mv, 0, wx.EXPAND),
